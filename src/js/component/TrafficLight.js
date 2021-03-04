@@ -33,15 +33,9 @@ export const TrafficLight = () => {
 		<div>
 			<div className="line"></div>
 			<div className="box">
-				<div className="red" onClick={colorRed}>
-					{red}
-				</div>
-				<div className="yellow" onClick={colorYellow}>
-					{yellow}
-				</div>
-				<div className="green" onClick={colorGreen}>
-					{green}
-				</div>
+				<div className={red} onClick={colorRed}></div>
+				<div className={yellow} onClick={colorYellow}></div>
+				<div className={green} onClick={colorGreen}></div>
 			</div>
 		</div>
 	);

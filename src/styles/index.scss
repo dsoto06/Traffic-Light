@@ -14,7 +14,6 @@
     border-style: solid;
 }
 .box div{
-   background-color: black;
    height: 80px;
    width: 80px;
    border-radius: 50%;
@@ -30,4 +29,8 @@
 }
 .box .green{
     background-color: green;
+}
+
+.box .color{
+    box-shadow: 0px 0px 15px 20px yellow;
 }
